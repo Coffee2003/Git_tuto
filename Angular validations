@@ -1,0 +1,8 @@
+<div *ngIf="fc['name'].errors && isSubmitted">
+          <small
+            *ngIf="fc['name'].errors?.['required']"
+            id="helpId"
+            class="text-warning"
+            >Please enter the input</small
+          >
+        </div>
